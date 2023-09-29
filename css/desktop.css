@@ -1,0 +1,8 @@
+@media (min-width: 992px) {
+  .banner {
+    height: 300px;
+  }
+  .certificate-first {
+    border-right: 1px #ffc105 solid !important;
+  }
+}
