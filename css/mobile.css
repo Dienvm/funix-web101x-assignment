@@ -1,46 +1,9 @@
-.banner {
-  background-image: url('../images/banner.jpg');
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-  color: #fff;
-  height: 400px;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.info-wrap {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.card-container {
-  border: #ccc 1px solid;
-  padding: 16px;
-}
-
-.dot-cirle {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  margin-top: 8px;
-}
-
-.progress-custom .progress {
-  height: 3px;
-  width: 100%;
-}
-
-.hobby-icon {
-  width: 60px;
-  height: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-@media (max-width: 990px) {
+@media (max-width: 992px) {
   .footer-desc {
     display: none;
+  }
+
+  .project-chapter h2 {
+    text-align: center !important;
   }
 }

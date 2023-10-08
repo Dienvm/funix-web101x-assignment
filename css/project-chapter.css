@@ -1,0 +1,47 @@
+body {
+  background-color: #eff3f6;
+}
+
+.card-item {
+  box-shadow: rgba(21, 111, 255, 0.2) 0px 0px 10px 0px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: rgb(255, 255, 255);
+  margin: 20px 0;
+  padding: 16px;
+}
+
+.custom-box {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.number-square {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  color: #fff;
+  background-color: blueviolet;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeline-content {
+  border-bottom: 1px dashed cyan;
+}
+
+.timeline-content:last-child {
+  /* background-color: red; */
+  /* border: none; */
+}
+/*  */

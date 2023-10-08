@@ -1,0 +1,90 @@
+.banner {
+  background-image: url('../images/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #fff;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.info-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-container {
+  border: #ccc 1px solid;
+  padding: 16px;
+}
+
+.career-objective {
+  background-color: rgb(245 245 245);
+}
+
+.basic-information {
+  background-color: rgb(240 240 240);
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.dot-cirle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-top: 8px;
+}
+
+.progress-custom .progress {
+  height: 3px;
+  width: 100%;
+}
+
+.hobby-icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  min-height: 100px;
+  position: relative;
+}
+
+.more-content {
+  display: none;
+  position: absolute;
+
+  left: 0;
+  background-color: #fff;
+  z-index: 1;
+  padding: 10px;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.see-less {
+  display: none;
+
+  border-radius: 20px !important;
+
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  z-index: 100;
+}
+
+.see-more {
+  border-radius: 20px !important;
+  position: absolute;
+  display: none;
+  right: 25%;
+}
